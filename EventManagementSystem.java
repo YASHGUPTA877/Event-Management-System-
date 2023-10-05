@@ -19,8 +19,8 @@ public class EventManagementSystem {
 
         // Example: Creating an event
         Event event1 = new Event();
-        event1.setEventName("Tech Conference");
-        event1.setDate("2023-10-10");
+        event1.setEventName("Rass Garba Conference");
+        event1.setDate("2023-10-12");
         event1.setLocation("Conference Center");
 
         // Example: Creating an organizer
@@ -30,8 +30,8 @@ public class EventManagementSystem {
 
         // Example: Creating an attendee
         Attendee attendee1 = new Attendee();
-        attendee1.setAttendeeName("John Doe");
-        attendee1.setEmail("john.doe@example.com");
+        attendee1.setAttendeeName("Yash Gupta");
+        attendee1.setEmail("yash.gupta@example.com");
 
         // Adding created entities to the system
         eventSystem.events.add(event1);
